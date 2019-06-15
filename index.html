@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="fruit.css">
+    <script src="fruit.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+        
+    <div class="main">
+        <div class="heading">
+            <h1>Fruit Shop</h1>
+        </div>
+        <div class="haveRs">
+            <div class="rsAmount">
+                <h3>I have Rs.</h3>
+            </div>
+            <div class="num"><input type="text" name="firstname" id="userAmount" onchange="userAmountCheck()"></div>
+        </div>
+        <div class="total">
+            <div class="totalRs">
+                <h1>Your total is Rs.</h1>
+            </div>
+            <div class="yourNumber">
+                <input type="text" id="total" name="firstname">
+            </div>
+        </div>
+        <div class="threeImage">
+            <div class="cont">
+                <div class="lastimage">
+                    <div class="headingBorderRs">
+                        <h3>Rs. 10</h3>
+                    </div>
+
+                    <div class="image">
+                        <img src="images/apple.png" alt="">
+                    </div>
+                    <div class="name">
+                        <h3>Apple</h3>
+                    </div>
+                    <div class="icrementoperator">
+                        <div class="subincrement">
+                            <div class="lftBtn">
+                                <button onclick="minusbutton();">
+                                    <div class="minus">
+                                        <p>-</p>
+                                    </div>
+                                </button>
+
+                            </div>
+                            <div class="imgInput">
+
+                                <input type="text" id="inc" placeholder="0">
+
+                            </div>
+                            <div class="rightBtn">
+                                <button onclick="button();">
+                                    <p>+</p>
+                                </button>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+                <div class="lastimage">
+                    <div class="headingBorderRs">
+                        <h3>Rs. 15</h3>
+                    </div>
+
+                    <div class="image">
+                        <img src="images/orange.png" alt="">
+                    </div>
+                    <div class="name">
+                        <h3>Orange</h3>
+                    </div>
+                    <div class="icrementoperator">
+                        <div class="subincrement">
+                            <div class="lftBtn">
+                                <button onclick="orangeminusbutton();">
+                                    <div class="minus">
+                                        <p>-</p>
+                                    </div>
+                                </button>
+
+                            </div>
+                            <div class="imgInput">
+                                <input type="text"  id="orangeMinus" name="firstname" placeholder="0">
+
+                            </div>
+                            <div class="rightBtn">
+                                <button onclick="orangebutton()">
+                                    <p>+</p>
+                                </button>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+                <div class="lastimage">
+                    <div class="headingBorderRs">
+                        <h3>Rs. 7</h3>
+                    </div>
+
+                    <div class="image">
+                        <img src="images/banana.png" alt="">
+                    </div>
+                    <div class="name">
+                        <h3>Banana</h3>
+                    </div>
+                    <div class="icrementoperator">
+                        <div class="subincrement">
+                            <div class="lftBtn">
+                                <button onclick="appleminusbutton()">
+                                    <div class="minus">
+                                        <p>-</p>
+                                    </div>
+                                </button>
+
+                            </div>
+                            <div class="imgInput">
+                                <input type="text" id="banana" name="firstname" placeholder="0">
+
+                            </div>
+                            <div class="rightBtn">
+                                <button onclick="bananabutton();">
+                                    <p>+</p>
+                                </button>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

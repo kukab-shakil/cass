@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    height: 88px;
+    align-items: center;
+    background-image: linear-gradient(#43484e, #5e6679, #43484e);
+    color: white;
+
+
+}
+.haveRs{
+    display: flex;
+    height: 87px;
+    justify-content: center;
+    align-items: center;
+}
+.num input[type="text"] {
+    border: 1px solid #e5e3e3;
+    border-radius: 13px;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    padding-right: 15px;
+    padding-left: 24px;
+    outline: none;
+}
+.total {
+    background-color: #efe2cc;
+    height: 198px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 8px; */
+}
+.yourNumber input[type="text"] {
+    background-color: transparent;
+    height: 49px;
+    border: none;
+    margin-left: 3px;
+    outline: none;
+    font-size: 59px;
+    width: 66px;
+    color: red;
+}
+.threeImage{
+    background-image: linear-gradient(#3a3f40, #5e6679, #3a3f40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.cont {
+    display: flex;
+    width: 825px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+.lastimage {
+    margin-top: 14px;
+    margin-bottom: 14px;
+    border-radius: 9px 9px 4px 4px;
+    height: 216px;
+    width: 193px;
+    background-color: #f3f3f3;
+}
+.headingBorderRs {
+    height: 40px;
+    background-color: #346e34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px 6px 0px 0px;
+}
+.name {
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    margin-bottom: 2px;
+}
+.image {
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.imgInput input[type="text"] {
+    width: 50px;
+    font-size: 19px;
+    height: 34px;
+    padding-left: 35px;
+    color: #656565;
+    border: none;
+    background-image: linear-gradient(#dadada, #f4f4f4);
+}
+.icrementoperator {
+    display: flex;
+    justify-content: center;
+}
+.subincrement {
+    display: flex;
+    height: 38px;
+    border: 1px solid #545859;
+    border-radius: 20px;
+}
+.lftBtn button {
+    border: 1px solid #545859;
+    border-radius: 20px 0px 0px 20px;
+    height: 38px;
+    outline: none;
+
+    width: 30px;
+    background: linear-gradient(#43484e, #5e6679,#43484e );
+
+}
+.rightBtn button {
+ 
+    height: 38px;
+    width: 30px;
+    outline: none;
+    background: linear-gradient(#43484e, #5e6679,#43484e );
+
+    
+}
+.rightBtn p {
+    font-size: 20px;
+    color: white;
+}
+p {
+    font-size: 29px;
+    color: white;
+}
